@@ -1,10 +1,46 @@
-.App {
-  text-align: center;
+.credit-card{
+  display: flex;
+}
+.credit{background-color:rgba(18,56,100,1);
+        width: 350px;
+     color: white;
+    border-radius: 10px;
+   margin-left: 20px; 
+padding:0 10px ;
+}
+.company{
+       text-align: right;  }
+.cordone{
+        display: flex;
+        padding: 0;
+      }
+.text{flex:1;
+padding-right: 10px;}
+.number{
+  background-color: teal;
+}
+.date{
+  text-align: right;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.image{
+  width:80px;
+  height: 80px;
+margin-top: 60px;
+}
+.image img{
+  width: 100%;
+  height: 100%;
+}
+.input{ 
+  margin: 50px;
+}
+.enter{
+  border-radius: 5px;
+  margin: 8px;
+  width: 200px;
+  height: 25px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,20 +49,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
